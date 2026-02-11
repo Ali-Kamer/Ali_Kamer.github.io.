@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analyst Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'dark-blue': '#1e3a8a',
+                        'light-blue': '#3b82f6',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-dark-blue font-sans">
+    <!-- Hero Section -->
+    <section class="bg-dark-blue text-white py-20">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <img src="https://via.placeholder.com/300x300?text=Your+Photo" alt="Your Photo" class="rounded-full w-64 h-64 mx-auto md:mx-0 shadow-lg">
+            </div>
+            <div class="md:w-1/2 text-center md:text-left">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Data Analyst | Turning Data into Actionable Insights</h1>
+                <p class="text-xl">Passionate about leveraging data to drive business growth and efficiency.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-8">About Me</h2>
+            <p class="text-lg text-center max-w-3xl mx-auto">
+                As a dedicated Data Analyst with over 5 years of experience, I specialize in transforming raw data into meaningful insights that empower organizations to make informed decisions. My expertise spans data visualization, statistical analysis, and predictive modeling, helping businesses optimize operations and uncover hidden opportunities. I thrive on solving complex problems and collaborating with cross-functional teams to deliver impactful results.
+            </p>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-8">Technical Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="bg-dark-blue text-white rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold">SQL</span>
+                    </div>
+                    <p class="text-lg">Proficient in querying and managing relational databases for efficient data extraction and analysis.</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-dark-blue text-white rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold">Python</span>
+                    </div>
+                    <p class="text-lg">Skilled in using Python libraries like Pandas, NumPy, and Matplotlib for data manipulation and visualization.</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-dark-blue text-white rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold">Power BI</span>
+                    </div>
+                    <p class="text-lg">Expert in creating interactive dashboards and reports to communicate data-driven insights effectively.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/400x250?text=Sales+Dashboard" alt="Sales Dashboard" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Sales Performance Dashboard</h3>
+                        <p class="text-gray-700">Developed an interactive Power BI dashboard that visualized sales metrics, resulting in a 15% increase in quarterly revenue by identifying underperforming regions and enabling targeted marketing strategies.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/400x250?text=Customer+Segmentation" alt="Customer Segmentation" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Customer Segmentation Analysis</h3>
+                        <p class="text-gray-700">Utilized Python and clustering algorithms to segment customers, leading to personalized marketing campaigns that boosted customer retention by 20% and increased average order value by 12%.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://via.placeholder.com/400x250?text=Inventory+Optimization" alt="Inventory Optimization" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Inventory Optimization Model</h3>
+                        <p class="text-gray-700">Built a predictive model using SQL and Python to forecast inventory needs, reducing stockouts by 25% and cutting excess inventory costs by 18%, optimizing supply chain efficiency.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark-blue text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2023 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
